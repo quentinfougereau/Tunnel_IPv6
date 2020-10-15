@@ -20,9 +20,10 @@ Principe du tunnel IPv6 :
 * Virtualbox (testé sur la version 6.1)
 * Vagrant (testé sur la version 2.2.9)
 
-    wget La box vagrant debianTP.box
 
-    vagrant box add debianTP.box --name "debian-tp"
+Il faut ajouter la box (hébergée sur VagrantCloud) avec la commande suivante :
+
+    vagrant box add quentinfougereau/debian-tp
 
 
 # Utilisation
